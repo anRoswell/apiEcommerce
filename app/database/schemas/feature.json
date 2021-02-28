@@ -1,0 +1,15 @@
+{
+	"allowed": [
+    "name",
+    "values",
+    "status"
+  ],
+	"required": {
+		"name": "Nombre",
+		"values": "Valores"
+	},
+	"json": ["values"],
+	"params": {
+		"id": "/^([0-9])*$/"
+	}
+}

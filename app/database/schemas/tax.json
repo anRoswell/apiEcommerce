@@ -1,0 +1,17 @@
+{
+    "allowed": [
+        "name",
+        "rate",
+        "code",
+        "status"
+    ],
+    "required": {
+        "name": "Nombre",
+        "rate": "Tarifa",
+        "code": "Código",
+        "status": "Activo"
+    },
+    "params": {
+        "id": "/^([0-9])*$/"
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"allowed": ["name", "dane", "type", "excerpt", "cityId", "status"],
+	"required": {
+		"name": "Nombre",
+		"type": "Tipo"
+	},
+	"params": {
+		"id": "/^([0-9])*$/"
+	}
+}

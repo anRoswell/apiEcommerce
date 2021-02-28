@@ -1,0 +1,16 @@
+{
+  "allowed": [
+    "name",
+    "cities",
+    "disabled"
+  ],
+  "json": ["cities"],
+  "required": {
+    "name": "Nombre",
+    "cities": "Ciudades",
+    "disabled": "Activo"
+  },
+  "params": {
+    "id": "/^([0-9])*$/"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "allowed": [
+    "name",
+	  "slug",
+    "description",
+    "categoryId",
+    "imageUrl",
+    "seo",
+    "status"
+  ],
+  
+  "required": {
+    "name": "Nombre",
+    "slug": "Ruta",
+    "description": "Descripción",
+    "seo": "Seo"
+  },
+  "params": {
+    "id": "/^([0-9])*$/"
+  }
+}

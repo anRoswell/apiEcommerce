@@ -1,0 +1,13 @@
+{
+    "allowed": [
+        "name",
+        "status"
+    ],
+    "required": {
+        "name": "Nombre",
+        "status": "Activo"
+    },
+    "params": {
+        "id": "/^([0-9])*$/"
+    }
+}

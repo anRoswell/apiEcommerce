@@ -1,0 +1,35 @@
+{
+	"allowed": [
+		"name",
+		"alias",
+		"identificationTypeId",
+		"identificationNumber",
+		"address",
+		"email",
+		"phone",
+		"mobile",
+		"vat",
+		"taxes",
+		"slogan",
+		"message",
+		"status"
+	],
+	"required": {
+		"name": "Nombre",
+		"alias": "Alias",
+		"identificationTypeId": "tipo de Identificación",
+		"identificationNumber": "numero de identificación",
+		"address": "dirección",
+		"email": "email",
+		"phone": "phone",
+		"mobile": "mobile",
+		"vat": "vat",
+		"taxes": "taxes",
+		"slogan": "slogan",
+		"message": "message",
+		"status": "status"
+	},
+	"params": {
+		"id": "/^([0-9])*$/"
+	}
+}

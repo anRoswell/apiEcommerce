@@ -1,0 +1,13 @@
+{
+	"allowed": ["name", "username", "email", "mobile", "profileid", "status"],
+	"required": {
+		"name": "Nombres Apellidos",
+		"username": "Nombre usuario",
+		"email": "Correo electrónico",
+		"profileid": "Perfil",
+		"status": "Estado"
+	},
+	"params": {
+		"id": "/^([0-9])*$/"
+	}
+}
